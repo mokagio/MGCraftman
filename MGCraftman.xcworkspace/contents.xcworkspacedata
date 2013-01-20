@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:MGCraftman"
+      name = "MGCraftman">
+      <FileRef
+         location = "group:UIColor+CSSColors.h">
+      </FileRef>
+      <FileRef
+         location = "group:UIColor+CSSColors.m">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Examples/RandomColors/RandomColors.xcodeproj">
+   </FileRef>
 </Workspace>
