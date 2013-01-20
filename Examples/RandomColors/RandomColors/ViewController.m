@@ -34,6 +34,10 @@
 
 - (void)randomlyChangeColor
 {
+    if ([self.hintLabel superview]) {
+        [self.hintLabel removeFromSuperview];
+    }
+    
     UIColor *color = [self getRandomColor];
     
     // we don't want to have the same color twice in a row
