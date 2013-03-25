@@ -4,6 +4,16 @@
    <Group
       location = "group:MGCraftman"
       name = "MGCraftman">
+      <Group
+         location = "group:UIView"
+         name = "UIView">
+         <FileRef
+            location = "group:UIView+Position.h">
+         </FileRef>
+         <FileRef
+            location = "group:UIView+Position.m">
+         </FileRef>
+      </Group>
       <FileRef
          location = "group:UIColor+CSSColors.h">
       </FileRef>
