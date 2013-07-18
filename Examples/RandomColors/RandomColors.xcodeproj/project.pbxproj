@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F22447F17988F3E0079F6A6 /* UIColor+CSSColors.h in Resources */ = {isa = PBXBuildFile; fileRef = 3F22447717988F3E0079F6A6 /* UIColor+CSSColors.h */; };
+		3F22448017988F3E0079F6A6 /* UIColor+CSSColors.m in Resources */ = {isa = PBXBuildFile; fileRef = 3F22447817988F3E0079F6A6 /* UIColor+CSSColors.m */; };
+		3F22448117988F3E0079F6A6 /* UIView+MGSmartView.h in Resources */ = {isa = PBXBuildFile; fileRef = 3F22447A17988F3E0079F6A6 /* UIView+MGSmartView.h */; };
+		3F22448217988F3E0079F6A6 /* UIView+MGSmartView.m in Resources */ = {isa = PBXBuildFile; fileRef = 3F22447B17988F3E0079F6A6 /* UIView+MGSmartView.m */; };
 		3F5A2CA616AC5AE1009BB171 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5A2CA516AC5AE1009BB171 /* UIKit.framework */; };
 		3F5A2CA816AC5AE1009BB171 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5A2CA716AC5AE1009BB171 /* Foundation.framework */; };
 		3F5A2CAA16AC5AE1009BB171 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5A2CA916AC5AE1009BB171 /* CoreGraphics.framework */; };
@@ -18,10 +22,13 @@
 		3F5A2CBC16AC5AE1009BB171 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5A2CBB16AC5AE1009BB171 /* Default-568h@2x.png */; };
 		3F5A2CBF16AC5AE1009BB171 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A2CBE16AC5AE1009BB171 /* ViewController.m */; };
 		3F5A2CC216AC5AE1009BB171 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F5A2CC016AC5AE1009BB171 /* ViewController.xib */; };
-		3F5A2CDF16AC621E009BB171 /* UIColor+CSSColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A2CDC16AC5D93009BB171 /* UIColor+CSSColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F22447717988F3E0079F6A6 /* UIColor+CSSColors.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UIColor+CSSColors.h"; sourceTree = "<group>"; };
+		3F22447817988F3E0079F6A6 /* UIColor+CSSColors.m */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UIColor+CSSColors.m"; sourceTree = "<group>"; };
+		3F22447A17988F3E0079F6A6 /* UIView+MGSmartView.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UIView+MGSmartView.h"; sourceTree = "<group>"; };
+		3F22447B17988F3E0079F6A6 /* UIView+MGSmartView.m */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UIView+MGSmartView.m"; sourceTree = "<group>"; };
 		3F5A2CA116AC5AE1009BB171 /* RandomColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5A2CA516AC5AE1009BB171 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F5A2CA716AC5AE1009BB171 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -38,8 +45,6 @@
 		3F5A2CBD16AC5AE1009BB171 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3F5A2CBE16AC5AE1009BB171 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F5A2CC116AC5AE1009BB171 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		3F5A2CDB16AC5D93009BB171 /* UIColor+CSSColors.h */ = {isa = PBXFileReference; lastKnownFileType = file; name = "UIColor+CSSColors.h"; path = "../../MGCraftman/UIColor+CSSColors.h"; sourceTree = "<group>"; };
-		3F5A2CDC16AC5D93009BB171 /* UIColor+CSSColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CSSColors.m"; path = "../../MGCraftman/UIColor+CSSColors.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F22447917988F3E0079F6A6 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				3F22447717988F3E0079F6A6 /* UIColor+CSSColors.h */,
+				3F22447817988F3E0079F6A6 /* UIColor+CSSColors.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		3F22447C17988F3E0079F6A6 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				3F22447A17988F3E0079F6A6 /* UIView+MGSmartView.h */,
+				3F22447B17988F3E0079F6A6 /* UIView+MGSmartView.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		3F22447D17988F3E0079F6A6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3F22447917988F3E0079F6A6 /* UIColor */,
+				3F22447C17988F3E0079F6A6 /* UIView */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3F22447E17988F3E0079F6A6 /* MGCraftman */ = {
+			isa = PBXGroup;
+			children = (
+				3F22447D17988F3E0079F6A6 /* Categories */,
+			);
+			name = MGCraftman;
+			path = ../../MGCraftman;
+			sourceTree = "<group>";
+		};
 		3F5A2C9616AC5AE1009BB171 = {
 			isa = PBXGroup;
 			children = (
@@ -114,8 +155,7 @@
 		3F5A2CD716AC5D4C009BB171 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				3F5A2CDB16AC5D93009BB171 /* UIColor+CSSColors.h */,
-				3F5A2CDC16AC5D93009BB171 /* UIColor+CSSColors.m */,
+				3F22447E17988F3E0079F6A6 /* MGCraftman */,
 			);
 			name = Vendor;
 			sourceTree = "<group>";
@@ -176,6 +216,10 @@
 				3F5A2CBA16AC5AE1009BB171 /* Default@2x.png in Resources */,
 				3F5A2CBC16AC5AE1009BB171 /* Default-568h@2x.png in Resources */,
 				3F5A2CC216AC5AE1009BB171 /* ViewController.xib in Resources */,
+				3F22447F17988F3E0079F6A6 /* UIColor+CSSColors.h in Resources */,
+				3F22448017988F3E0079F6A6 /* UIColor+CSSColors.m in Resources */,
+				3F22448117988F3E0079F6A6 /* UIView+MGSmartView.h in Resources */,
+				3F22448217988F3E0079F6A6 /* UIView+MGSmartView.m in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F5A2CDF16AC621E009BB171 /* UIColor+CSSColors.m in Sources */,
 				3F5A2CB216AC5AE1009BB171 /* main.m in Sources */,
 				3F5A2CB616AC5AE1009BB171 /* AppDelegate.m in Sources */,
 				3F5A2CBF16AC5AE1009BB171 /* ViewController.m in Sources */,
@@ -306,6 +349,7 @@
 				3F5A2CC716AC5AE1009BB171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

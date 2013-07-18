@@ -4,12 +4,30 @@
    <Group
       location = "group:MGCraftman"
       name = "MGCraftman">
-      <FileRef
-         location = "group:UIColor+CSSColors.h">
-      </FileRef>
-      <FileRef
-         location = "group:UIColor+CSSColors.m">
-      </FileRef>
+      <Group
+         location = "group:Categories"
+         name = "Categories">
+         <Group
+            location = "group:UIColor"
+            name = "UIColor">
+            <FileRef
+               location = "group:UIColor+CSSColors.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIColor+CSSColors.m">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:UIView"
+            name = "UIView">
+            <FileRef
+               location = "group:UIView+MGSmartView.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIView+MGSmartView.m">
+            </FileRef>
+         </Group>
+      </Group>
    </Group>
    <FileRef
       location = "group:Examples/RandomColors/RandomColors.xcodeproj">
