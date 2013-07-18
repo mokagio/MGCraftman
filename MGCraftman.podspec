@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author       = { "Giovanni Lodi" => "mokagio42@gmail.com" }
 
   s.source       = { :git => "https://github.com/mokagio/MGCraftman.git", :tag => "0.1.0" }
-  s.source_files = 'MGCraftman/*.{h,m}'
+  s.source_files = 'MGCraftman/**/*.{h,m}'
 
   s.platform     = :ios
 end
