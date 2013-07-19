@@ -22,13 +22,15 @@
 		3F5A2CBC16AC5AE1009BB171 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5A2CBB16AC5AE1009BB171 /* Default-568h@2x.png */; };
 		3F5A2CBF16AC5AE1009BB171 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A2CBE16AC5AE1009BB171 /* ViewController.m */; };
 		3F5A2CC216AC5AE1009BB171 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F5A2CC016AC5AE1009BB171 /* ViewController.xib */; };
+		3F98004F1799F06C00411B48 /* UIColor+MGUtils.h in Resources */ = {isa = PBXBuildFile; fileRef = 3F98004D1799F06C00411B48 /* UIColor+MGUtils.h */; };
+		3F9800501799F06C00411B48 /* UIColor+MGUtils.m in Resources */ = {isa = PBXBuildFile; fileRef = 3F98004E1799F06C00411B48 /* UIColor+MGUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F22447717988F3E0079F6A6 /* UIColor+CSSColors.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UIColor+CSSColors.h"; sourceTree = "<group>"; };
-		3F22447817988F3E0079F6A6 /* UIColor+CSSColors.m */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UIColor+CSSColors.m"; sourceTree = "<group>"; };
-		3F22447A17988F3E0079F6A6 /* UIView+MGSmartView.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UIView+MGSmartView.h"; sourceTree = "<group>"; };
-		3F22447B17988F3E0079F6A6 /* UIView+MGSmartView.m */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UIView+MGSmartView.m"; sourceTree = "<group>"; };
+		3F22447717988F3E0079F6A6 /* UIColor+CSSColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CSSColors.h"; sourceTree = "<group>"; };
+		3F22447817988F3E0079F6A6 /* UIColor+CSSColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CSSColors.m"; sourceTree = "<group>"; };
+		3F22447A17988F3E0079F6A6 /* UIView+MGSmartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MGSmartView.h"; sourceTree = "<group>"; };
+		3F22447B17988F3E0079F6A6 /* UIView+MGSmartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MGSmartView.m"; sourceTree = "<group>"; };
 		3F5A2CA116AC5AE1009BB171 /* RandomColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5A2CA516AC5AE1009BB171 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F5A2CA716AC5AE1009BB171 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,6 +47,8 @@
 		3F5A2CBD16AC5AE1009BB171 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3F5A2CBE16AC5AE1009BB171 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F5A2CC116AC5AE1009BB171 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3F98004D1799F06C00411B48 /* UIColor+MGUtils.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UIColor+MGUtils.h"; sourceTree = "<group>"; };
+		3F98004E1799F06C00411B48 /* UIColor+MGUtils.m */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UIColor+MGUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 			children = (
 				3F22447717988F3E0079F6A6 /* UIColor+CSSColors.h */,
 				3F22447817988F3E0079F6A6 /* UIColor+CSSColors.m */,
+				3F98004D1799F06C00411B48 /* UIColor+MGUtils.h */,
+				3F98004E1799F06C00411B48 /* UIColor+MGUtils.m */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -220,6 +226,8 @@
 				3F22448017988F3E0079F6A6 /* UIColor+CSSColors.m in Resources */,
 				3F22448117988F3E0079F6A6 /* UIView+MGSmartView.h in Resources */,
 				3F22448217988F3E0079F6A6 /* UIView+MGSmartView.m in Resources */,
+				3F98004F1799F06C00411B48 /* UIColor+MGUtils.h in Resources */,
+				3F9800501799F06C00411B48 /* UIColor+MGUtils.m in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
