@@ -13,7 +13,7 @@
 + (UIColor *)colorWithIntegerRed:(NSUInteger)red
                            green:(NSUInteger)green
                             blue:(NSUInteger)blue
-                           alpha:(CGFloat)alpha
+                           alpha:(CGFloat)alpha;
 
 // See http://www.cocoanetics.com/2009/10/manipulating-uicolors/
 - (UIColor *)colorByDarkeningColor:(CGFloat)percentage;
