@@ -8,9 +8,16 @@
 
 #import "UIColor+MGUtils.h"
 
+static CGFloat kDefaultDarkeningPercentage = 0.85;
+
 @implementation UIColor (MGUtils)
 
-+ (UIColor *)colorWithIntegerRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue alpha:(CGFloat)alpha
+#pragma mark - Color with Integer Component
+
++ (UIColor *)colorWithIntegerRed:(NSUInteger)red
+                           green:(NSUInteger)green
+                            blue:(NSUInteger)blue
+                           alpha:(CGFloat)alpha
 {
     return [UIColor colorWithRed:(CGFloat)red / 255.0
                            green:(CGFloat)green / 255.0
@@ -18,7 +25,9 @@
                            alpha:alpha];
 }
 
-- (UIColor *)colorByDarkeningColor:(CGFloat)percentage
+#pragma mark - Color by modifing existing color
+
+- (UIColor *)darkenedColor:(CGFloat)percentage
 {
 	// oldComponents is the array INSIDE the original color
 	// changing these changes the original, so we copy it
@@ -58,5 +67,40 @@
     
 	return retColor;
 }
+
+- (UIColor *)darkenedColor
+{
+    return [self darkenedColor:kDefaultDarkeningPercentage];
+}
+
+#pragma mark - Random Color
+
++ (UIColor *)randomColor
+{
+    return [self randomColorWithAlpha:NO];
+}
+
++ (UIColor *)randomColorWithAlpha:(BOOL)withAlpha
+{
+    CGFloat red = arc4random() % 256;
+    red /= 255;
+    
+    CGFloat green = arc4random() % 256;
+    green /= 255;
+    
+    CGFloat blue = arc4random() % 256;
+    blue /= 255;
+    
+    CGFloat alpha;
+    if (withAlpha) {
+        alpha = arc4random() % 101;
+        alpha /= 100;
+    } else {
+        alpha = 1.0;
+    }
+    
+    return [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
+}
+
 
 @end
