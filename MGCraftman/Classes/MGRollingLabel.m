@@ -77,6 +77,7 @@ static const CGFloat kStepDuration = 0.01;
 
 - (void)dealloc
 {
+    [super dealloc];
     [NSObject cancelPreviousPerformRequestsWithTarget:self];
 }
 
